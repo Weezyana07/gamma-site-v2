@@ -1,0 +1,91 @@
+/* src/components/Services.css */
+/* .services {
+  padding: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.services h1 {
+  padding-bottom: 1rem;
+  font-weight: bolder;
+  font-size: 3rem;
+} */
+
+.services {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.services h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 3rem 0;
+}
+
+/* .service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+} */
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap; /* Enables wrapping on smaller screens */
+  gap: 1.5rem; /* Space between cards */
+  justify-content: center; /* Center the cards */
+  margin: 0 auto; /* Center the container */
+}
+
+/* .service-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  max-width: 300px;
+  text-align: left;
+} */
+.service-card {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  text-align: center;
+  width: 300px;
+}
+
+/* .service-image {
+  border-radius: 8px;
+  width: 250px;
+  height: 176px;
+} */
+
+.service-image {
+  width: 250px;
+  height: 176px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* .service-card h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+} */
+
+.service-card {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  padding-left: 2rem;
+}
+
+/* .service-card p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #3c3c3c;
+} */
+
+.service-card p {
+  padding: 0 1rem 1rem;
+  font-size: 1rem;
+}

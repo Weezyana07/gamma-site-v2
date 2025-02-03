@@ -1,0 +1,11 @@
+.primary-header {
+  margin-top: var(--size-700);
+}
+
+header {
+  height: 70vh;
+  background: url("/public/images/home.jpg") no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}

@@ -1,0 +1,6 @@
+header {
+  background: url("/public/images/home.jpg") no-repeat center center fixed;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+}

@@ -1,0 +1,94 @@
+/* src/components/Contact.css */
+/* .contact {
+  background-color: #ff4d4d;
+  color: white;
+  padding: 2rem;
+  text-align: left;
+}
+
+.contact-head {
+  display: flex;
+}
+
+.contact-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-email {
+  display: inline-block;
+  background-color: white;
+  color: #ff4d4d;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.contact-email:hover {
+  background-color: #f2f2f2;
+} */
+
+/* src/components/ContactUs.css */
+
+.contact-us {
+  display: flex;
+  height: 40vh;
+}
+
+.contact-left {
+  flex: 0 0 30%;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-right {
+  flex: 1;
+  background-color: #ff4c4c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.contact-content {
+  max-width: 600px;
+  text-align: left;
+}
+
+.contact-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  background-color: white;
+  color: #ff4c4c;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #fff2f2;
+  color: #ff4c4c;
+}

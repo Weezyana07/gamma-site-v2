@@ -1,0 +1,91 @@
+/* src/pages/Home.css */
+.home .background {
+  background-image: url("../src/public/images/bgService.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.home .overlay {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  background-image: url("../public/images/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
+.introduction {
+  position: relative;
+  padding: 2rem;
+  text-align: center;
+  max-width: 950px;
+  margin: 0 auto;
+  margin-top: -10%;
+}
+
+.introduction p {
+  font-size: 1.25rem;
+  color: #3c3c3c;
+}
+
+.introduction p span {
+  color: #1d70b6;
+}
+
+.hero-content {
+  position: absolute;
+  margin-left: 8rem;
+  max-width: 35%;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%);
+  text-align: left;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  color: #1d70b6;
+  margin-bottom: 2rem 0;
+}
+
+.hero-content p {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+  color: #3c3c3c;
+}
+
+.hero-content button {
+  background-color: #ff0000;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.hero-content button:hover {
+  background-color: #cc0000;
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+
+  .hero-content button {
+    font-size: 0.8rem;
+  }
+
+  .introduction p {
+    font-size: 1rem;
+  }
+}

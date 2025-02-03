@@ -1,0 +1,221 @@
+.home-header {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Combined height: 70vh for the top + 100vh for the bottom */
+  overflow: hidden;
+}
+
+.container {
+  width: 100%; /* Occupies 90% of the viewport width */
+  max-width: 1200px; /* Prevents it from getting too wide on large screens */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 1rem; /* Adds space inside the container */
+  display: flex; /* Makes it a flex container */
+  flex-direction: column; /* Default layout for children is vertical */
+  align-items: center; /* Centers child elements horizontally */
+  gap: 5rem; /* Adds spacing between child elements */
+}
+
+.top-image {
+  position: absolute;
+  height: 70vh;
+  background: url("/public/images/home.jpg") no-repeat center center fixed;
+  background-size: cover;
+  z-index: 1;
+  width: 100%;
+}
+
+.bottom-image {
+  position: absolute;
+  top: 70vh;
+  height: 100vh;
+  background: url("/public/images/bgService.jpg") no-repeat center center fixed;
+  background-size: cover;
+  z-index: 1;
+  width: 100%;
+}
+
+.welcome {
+  max-width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.welcome h2 {
+  font-size: 3rem;
+}
+
+.h1-container {
+  width: 100%; /* Ensures h2 takes full width */
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #1d70b6;
+}
+
+.mid-text {
+  position: absolute;
+  top: 70vh; /* Positioned right after the top image */
+  width: 100%;
+  text-align: center;
+  color: #3c3c3c; /* Adjust based on background for readability */
+  z-index: 2;
+  padding: 2rem 0; /* Space around the text */
+}
+
+.mid-text p {
+  font-size: 1.3rem;
+  margin: 3% 15%;
+}
+.mid-text p span {
+  color: #1d70b6;
+}
+
+/* Basic layout for the page */
+.wrapper {
+  position: relative;
+  width: 100vw;
+  z-index: 100;
+}
+
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 0rem 10rem;
+  position: relative;
+  z-index: 100;
+}
+
+.logo a img {
+  height: 100px; /* Adjust as necessary */
+}
+
+.primary-navigation {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list .li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav-list .li a {
+  color: #3c3c3c;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.nav-list .li a:hover {
+  color: #f0a500; /* Change this color to your desired hover effect */
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.nav-link:hover {
+  color: #ff0000;
+}
+
+/* .active-link {
+  color: #ff0000;
+} */
+
+nav ul li a.active-link {
+  color: #ff0000;
+}
+
+/* Mobile menu toggle */
+.mobile-nav-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.icon-hamburger {
+  width: 25px; /* Adjust as necessary */
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+}
+
+.section1 {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.section-p {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.card-content {
+  display: flex;
+  flex-wrap: wrap; /* Enables wrapping on smaller screens */
+  gap: 1.5rem; /* Space between cards */
+  justify-content: center; /* Center the cards */
+  margin: 0 auto; /* Center the container */
+}
+
+@media (max-width: 768px) {
+  .primary-navigation {
+    display: none; /* Hide navigation on small screens */
+  }
+
+  .mobile-nav-toggle {
+    display: block; /* Show the hamburger menu */
+  }
+
+  .mobile-nav-toggle[aria-expanded="true"] + .primary-navigation {
+    display: flex; /* Show navigation when hamburger is clicked */
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%; /* Use more of the screen width */
+    padding: 0.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 80%; /* Shrink the width for very large screens */
+  }
+}
