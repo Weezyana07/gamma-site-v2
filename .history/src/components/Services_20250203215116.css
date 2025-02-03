@@ -115,7 +115,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .services h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   .service-grid {
@@ -129,7 +129,7 @@
 
 @media (max-width: 480px) {
   .services h1 {
-    font-size: 1.5rem;
+    font-size: 5rem;
   }
 
   .service-card {
