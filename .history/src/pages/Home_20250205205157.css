@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 90rem;
   max-width: 1200px;
   margin: auto;
   padding: 2rem 0;
