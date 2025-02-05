@@ -212,8 +212,7 @@ body {
   }
 
   .nav-wrapper {
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
   }
 
   .primary-navigation {
