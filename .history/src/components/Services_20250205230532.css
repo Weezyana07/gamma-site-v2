@@ -2,7 +2,8 @@
 /* .services {
   text-align: center;
   padding: 4rem 2rem;
-  } */
+  background-color: #f9f9f9;
+} */
 
 .services {
   text-align: center;
@@ -107,7 +108,7 @@
 .service-description {
   margin-top: 0.5rem;
   font-size: 1rem;
-  text-align: left;
+  text-align: justify;
   padding: 0 1rem 1rem;
 }
 

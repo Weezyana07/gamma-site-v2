@@ -253,16 +253,10 @@ body {
   .home-header {
     position: relative;
     width: 100%;
-    height: 54vh;
+    height: 60.5vh;
     overflow: hidden;
     background: #f8f9fa;
   }
-
-  .container {
-    width: 95%;
-    padding: 1rem;
-  }
-
   .top-image {
     max-height: 300px; /* Adjust height for small screens */
     object-fit: cover; /* Crops the image to fit without distorting */
@@ -270,6 +264,10 @@ body {
   .bottom-image {
     top: 300px;
     max-height: 200px;
+  }
+  .container {
+    width: 95%;
+    padding: 1rem;
   }
 
   .mid-text {
@@ -282,7 +280,7 @@ body {
   }
 
   .mid-text p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin: 3% 10%;
   }
 
@@ -326,69 +324,50 @@ body {
 
 /* Breakpoint: 769px to 1024px (small laptops and large tablets) */
 @media (min-width: 769px) and (max-width: 1024px) {
-  .home-header {
-    position: relative;
-    width: 100%;
-    height: 65vh;
-    overflow: hidden;
-    background: #f8f9fa;
+  .top-image,
+  .bottom-image {
+    max-height: 400px; /* Adjust height for small screens */
+    object-fit: contain; /* Crops the image to fit without distorting */
   }
-
   .container {
     width: 90%;
     padding: 1.5rem;
   }
 
-  .top-image {
-    max-height: 400px; /* Adjust height for small screens */
-    object-fit: contain; /* Crops the image to fit without distorting */
+  .logo a img {
+    height: 70px;
   }
 
-  .bottom-image {
-    top: 400px;
-    max-height: 200px;
+  .nav-wrapper {
+    justify-content: space-between;
   }
 
-  .mid-text {
-    position: absolute;
-    top: 350px; /* Positioned right after the top image */
-    width: 100%;
-    text-align: center;
-    z-index: 2;
-    padding: 2.5rem 0; /* Space around the text */
+  .primary-navigation {
+    display: flex;
+    gap: 1.2rem;
   }
 
-  .mid-text p {
-    font-size: 1.2rem;
-    margin: 3% 10%;
+  .mobile-nav-toggle {
+    display: none;
   }
 
   .welcome {
-    max-width: 400px;
-    top: 250px;
+    max-width: 350px;
+    font-size: 1.5rem;
   }
 
-  .hero-title {
-    width: 100%; /* Ensures h2 takes full width */
-    font-size: 2.5rem;
-  }
-
-  .hero-subtitle {
-    font-size: 2rem;
-    max-width: 600px;
+  .mid-text p {
+    font-size: 1rem;
   }
 }
 
 /* Breakpoint: 1025px to 1200px (desktops and large screens) */
 @media (min-width: 1025px) and (max-width: 1200px) {
-  .home-header {
-    position: relative;
-    width: 100%;
-    height: 75vh;
-    overflow: hidden;
-    background: #f8f9fa;
+  .top-image,
+  .bottom-image {
+    max-height: 500px; /* Adjust height for small screens */
+    object-fit: contain; /* Crops the image to fit without distorting */
   }
-
   .container {
     width: 85%;
   }
@@ -397,43 +376,17 @@ body {
     height: 75px;
   }
 
-  .top-image {
-    max-height: 500px; /* Adjust height for small screens */
-    object-fit: contain; /* Crops the image to fit without distorting */
-  }
-
-  .bottom-image {
-    top: 500px;
-    max-height: 200px;
-  }
-
-  .mid-text {
-    position: absolute;
-    top: 460px; /* Positioned right after the top image */
-    width: 100%;
-    text-align: center;
-    z-index: 2;
-    padding: 2.5rem 0; /* Space around the text */
-  }
-
-  .mid-text p {
-    font-size: 1.2rem;
-    margin: 3% 10%;
+  .primary-navigation {
+    gap: 1.5rem;
   }
 
   .welcome {
-    max-width: 400px;
-    top: 290px;
+    max-width: 380px;
+    font-size: 1.6rem;
   }
 
-  .hero-title {
-    width: 100%; /* Ensures h2 takes full width */
-    font-size: 2.5rem;
-  }
-
-  .hero-subtitle {
-    font-size: 2rem;
-    max-width: 600px;
+  .mid-text p {
+    font-size: 1.05rem;
   }
 }
 
@@ -459,6 +412,7 @@ body {
   .hero-title {
     width: 100%; /* Ensures h2 takes full width */
     font-size: 4rem;
+    color: red;
   }
 
   .hero-subtitle {

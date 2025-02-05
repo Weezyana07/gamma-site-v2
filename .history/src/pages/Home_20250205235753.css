@@ -409,7 +409,7 @@ body {
 
   .mid-text {
     position: absolute;
-    top: 460px; /* Positioned right after the top image */
+    top: 350px; /* Positioned right after the top image */
     width: 100%;
     text-align: center;
     z-index: 2;
@@ -423,7 +423,7 @@ body {
 
   .welcome {
     max-width: 400px;
-    top: 290px;
+    top: 250px;
   }
 
   .hero-title {
