@@ -265,7 +265,7 @@ body {
 
   .mid-text {
     position: absolute;
-    top: 280px; /* Positioned right after the top image */
+    top: 300px; /* Positioned right after the top image */
     width: 100%;
     text-align: center;
     z-index: 2;
@@ -273,8 +273,8 @@ body {
   }
 
   .mid-text p {
-    font-size: 1.8rem;
-    margin: 3% 10%;
+    font-size: 1.3rem;
+    margin: 3% 15%;
   }
 
   .logo a img {
