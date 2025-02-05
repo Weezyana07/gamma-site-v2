@@ -280,7 +280,7 @@ body {
   }
 
   .mid-text p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin: 3% 10%;
   }
 
@@ -308,7 +308,7 @@ body {
   }
 
   .welcome {
-    max-width: 320px;
+    max-width: 300px;
     padding-left: 2rem;
   }
   .hero-title {
@@ -317,8 +317,7 @@ body {
   }
 
   .hero-subtitle {
-    font-size: 1.3rem;
-    max-width: 260px;
+    font-size: 1rem;
   }
 }
 

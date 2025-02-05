@@ -141,7 +141,7 @@ body {
 
 .hero-title {
   width: 100%; /* Ensures h2 takes full width */
-  font-size: 1rem;
+  font-size: 3.5rem;
   font-weight: bold;
   color: #1d70b6;
 }
@@ -232,6 +232,7 @@ body {
 
   .welcome {
     max-width: 200px;
+    font-size: 1rem;
   }
   .hero-title {
     width: 100%; /* Ensures h2 takes full width */
@@ -280,7 +281,7 @@ body {
   }
 
   .mid-text p {
-    font-size: 0.9rem;
+    font-size: 1.8rem;
     margin: 3% 10%;
   }
 
@@ -308,7 +309,7 @@ body {
   }
 
   .welcome {
-    max-width: 320px;
+    max-width: 300px;
     padding-left: 2rem;
   }
   .hero-title {
@@ -317,8 +318,7 @@ body {
   }
 
   .hero-subtitle {
-    font-size: 1.3rem;
-    max-width: 260px;
+    font-size: 1rem;
   }
 }
 

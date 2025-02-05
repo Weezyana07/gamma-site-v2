@@ -308,17 +308,16 @@ body {
   }
 
   .welcome {
-    max-width: 320px;
+    max-width: 350px;
     padding-left: 2rem;
   }
   .hero-title {
     width: 100%; /* Ensures h2 takes full width */
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .hero-subtitle {
-    font-size: 1.3rem;
-    max-width: 260px;
+    font-size: 1rem;
   }
 }
 
