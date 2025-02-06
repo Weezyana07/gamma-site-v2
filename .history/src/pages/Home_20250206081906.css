@@ -197,39 +197,21 @@ body {
 
 /* Breakpoint: Up to 480px (mobile phones) */
 @media (max-width: 480px) {
-  .home-header {
+  /* .home-header {
     position: relative;
     width: 100%;
-    height: 63vh;
+    height: 54vh;
     overflow: hidden;
     background: #f8f9fa;
+  } */
+  .top-image,
+  .bottom-image {
+    max-height: 200px; /* Adjust height for small screens */
+    object-fit: cover; /* Crops the image to fit without distorting */
   }
   .container {
     width: 90%;
     padding: 1rem;
-  }
-
-  .top-image {
-    max-height: 200px; /* Adjust height for small screens */
-    object-fit: cover; /* Crops the image to fit without distorting */
-  }
-  .bottom-image {
-    top: 200px;
-    max-height: 100px;
-  }
-
-  .mid-text {
-    position: absolute;
-    top: 170px; /* Positioned right after the top image */
-    width: 100%;
-    text-align: center;
-    z-index: 2;
-    padding: 2rem 0; /* Space around the text */
-  }
-
-  .mid-text p {
-    font-size: 0.6rem;
-    margin: 3% 10%;
   }
 
   .logo a img {
@@ -256,7 +238,6 @@ body {
 
   .welcome {
     max-width: 200px;
-    top: 140px;
   }
   .hero-title {
     width: 100%; /* Ensures h2 takes full width */
@@ -264,8 +245,12 @@ body {
   }
 
   .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .mid-text p {
     font-size: 0.9rem;
-    max-width: 180px;
+    padding: 0 1rem;
   }
 }
 

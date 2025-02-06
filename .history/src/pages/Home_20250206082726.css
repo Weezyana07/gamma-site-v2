@@ -197,13 +197,13 @@ body {
 
 /* Breakpoint: Up to 480px (mobile phones) */
 @media (max-width: 480px) {
-  .home-header {
+  /* .home-header {
     position: relative;
     width: 100%;
-    height: 63vh;
+    height: 54vh;
     overflow: hidden;
     background: #f8f9fa;
-  }
+  } */
   .container {
     width: 90%;
     padding: 1rem;
@@ -220,7 +220,7 @@ body {
 
   .mid-text {
     position: absolute;
-    top: 170px; /* Positioned right after the top image */
+    top: 180px; /* Positioned right after the top image */
     width: 100%;
     text-align: center;
     z-index: 2;
@@ -228,7 +228,7 @@ body {
   }
 
   .mid-text p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     margin: 3% 10%;
   }
 
