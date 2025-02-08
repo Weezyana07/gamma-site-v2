@@ -106,6 +106,7 @@ body {
 
 .icon-hamburger {
   width: 30px;
+  filter: brightness(0) saturate(100%) invert(32%) sepia(99%) saturate(748%) hue-rotate(190deg) brightness(102%) contrast(99%);
 }
 
 /* Navigation Links */

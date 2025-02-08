@@ -21,6 +21,10 @@ footer {
   min-width: 220px;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .footer-section p {
   font-size: 1rem;
   margin-bottom: 10px;
@@ -89,6 +93,7 @@ footer {
     flex-direction: column;
     text-align: center;
     padding: 20px;
+    align-items: center;
   }
 
   .footer-section {
